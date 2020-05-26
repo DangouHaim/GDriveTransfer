@@ -1,0 +1,155 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "BLL/1.0.0": {
+        "dependencies": {
+          "DAL": "1.0.0",
+          "Google.Apis.Drive.v3": "1.45.0.1959",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "BLL.dll": {}
+        }
+      },
+      "Google.Apis/1.45.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.45.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.45.0.0",
+            "fileVersion": "1.45.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.45.0": {
+        "dependencies": {
+          "Google.Apis": "1.45.0",
+          "Google.Apis.Core": "1.45.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
+            "assemblyVersion": "1.45.0.0",
+            "fileVersion": "1.45.0.0"
+          },
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.45.0.0",
+            "fileVersion": "1.45.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.45.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.45.0.0",
+            "fileVersion": "1.45.0.0"
+          }
+        }
+      },
+      "Google.Apis.Drive.v3/1.45.0.1959": {
+        "dependencies": {
+          "Google.Apis": "1.45.0",
+          "Google.Apis.Auth": "1.45.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Drive.v3.dll": {
+            "assemblyVersion": "1.45.0.1959",
+            "fileVersion": "1.45.0.1959"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "DAL/1.0.0": {
+        "dependencies": {
+          "Google.Apis.Drive.v3": "1.45.0.1959"
+        },
+        "runtime": {
+          "DAL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis/1.45.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V/huVWohIr8c2Zg9+W+8fBElPd8Smz03k8e+tq/X9JsRdvAPaCBNwvMVNoyPbH+x/2tEFyX+n1jvIGFNC4hLzw==",
+      "path": "google.apis/1.45.0",
+      "hashPath": "google.apis.1.45.0.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.45.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dPAhjWofPoGzNjjgmz1zUfnzOsj2lKr/cUgC03NETYIbSZoyLeC9Sc+OCZH9wL0DdklLnvopoFx/v7aTqVjamw==",
+      "path": "google.apis.auth/1.45.0",
+      "hashPath": "google.apis.auth.1.45.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.45.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hYqI4v3kEIfWxiYierMo59XCAOFBoH30RqCzomSubK9JXGAv/o0Cp+gxEeAH9GspxQcZNZV50ouu/8Ypigd7fw==",
+      "path": "google.apis.core/1.45.0",
+      "hashPath": "google.apis.core.1.45.0.nupkg.sha512"
+    },
+    "Google.Apis.Drive.v3/1.45.0.1959": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yu22732m3OTvgooAWVGZw4JctbXt7TMb+yYGTyGbA597VvT6m0MWtGUcB6lBOk04zZQJySGmhWxn9XZxsdc5jA==",
+      "path": "google.apis.drive.v3/1.45.0.1959",
+      "hashPath": "google.apis.drive.v3.1.45.0.1959.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

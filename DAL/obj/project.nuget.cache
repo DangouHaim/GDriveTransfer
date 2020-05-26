@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "IopK2fKuFvDgI9CzfT7tGwgOOsvKQFvAtPCUQ/mq7p6kDf3PjyxbGqvE/nSLqeD8aQIPYp6oGTqf3t4erMWf3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dango\\source\\repos\\GDriveTransfer\\DAL\\DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dango\\.nuget\\packages\\google.apis\\1.45.0\\google.apis.1.45.0.nupkg.sha512",
+    "C:\\Users\\dango\\.nuget\\packages\\google.apis.auth\\1.45.0\\google.apis.auth.1.45.0.nupkg.sha512",
+    "C:\\Users\\dango\\.nuget\\packages\\google.apis.core\\1.45.0\\google.apis.core.1.45.0.nupkg.sha512",
+    "C:\\Users\\dango\\.nuget\\packages\\google.apis.drive.v3\\1.45.0.1959\\google.apis.drive.v3.1.45.0.1959.nupkg.sha512",
+    "C:\\Users\\dango\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dango\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\dango\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
